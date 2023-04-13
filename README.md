@@ -17,3 +17,6 @@ Created with only HTML, CSS and Javascript, it provides a smooth interface and l
 
 
 ## Sample Demo:
+
+https://user-images.githubusercontent.com/52379853/231765765-fc009954-434e-4d15-a224-f1d871e4e9bc.mov
+
