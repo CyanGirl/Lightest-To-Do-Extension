@@ -1,0 +1,90 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  body {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+  }  
+  
+  h1 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #7e5a9c;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    max-height: 250px; /* Set a fixed height for the container */
+    overflow-y: auto; /* Add scrolling functionality when list overflows */
+  }
+  
+
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(79, 44, 98, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+  li span {
+    margin-left: 10px;
+    flex: 1;
+    
+  }
+
+  li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 15px rgba(153, 118, 188, 0.3);
+    background-color: #f2f2f2;
+  }
+  
+  li button {
+    margin-left: 10px;
+    color: red;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .form-group input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .form-group button {
+    background-color: #7e5a9c;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
